@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
+.container {
+  display: grid;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  z-index: 0;
+}
+
+.logo {
+  display: grid;
+  align-items: flex-start;
+  height: 100px;
+}
+
+.html {
+  transform: translateY(0px);
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+.html:hover {
+  transform: translateY(50px);
+}
+
+.html .bandw {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 2s;
+}
+
+.html .bandw:hover {
+  opacity: 0;
+}
+
+/* CSS logo */
+.css {
+  transform: translateY(0px);
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+.css:hover {
+  transform: translateY(50px);
+}
+
+.css .bandw {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 2s;
+}
+
+.css .bandw:hover {
+  opacity: 0;
+}
+
+/* JavaScript */
+.js {
+  transform: translateY(0px);
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+.js:hover {
+  transform: translateY(50px);
+}
+
+.js .bandw {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 2s;
+}
+
+.js .bandw:hover {
+  opacity: 0;
+}
+
+.takip {
+  position: absolute;
+  background-color: white;
+  height: 48px;
+  width: 300px;
+  z-index: 10;
+}
+
+.takip2 {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 48px;
+  width: 300px;
+  z-index: 11;
+}
